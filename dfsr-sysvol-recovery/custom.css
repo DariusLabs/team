@@ -1,0 +1,25 @@
+/* ============================================================
+   ✅ DFSR
+   ============================================================ */
+
+.audit-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.audit-table th {
+    background: #0f172a;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.audit-table td {
+    padding: 12px;
+    border: 1px solid #dcdcdc;
+}
+
+.audit-table tr:nth-child(even) {
+    background: #f8fafc;
+}
