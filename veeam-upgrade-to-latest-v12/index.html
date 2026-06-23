@@ -44,7 +44,7 @@
 
         <tr>
             <td>Operating System</td>
-            <td>Windows Server</td>
+            <td>Windows Server 2022</td>
         </tr>
 
         <tr>
@@ -60,6 +60,11 @@
         <tr>
             <td>Database</td>
             <td>PostgreSQL or Microsoft SQL Server</td>
+        </tr>
+
+        <tr>
+                <td>License</td>
+                <td>Enterprise Essentials</td>
         </tr>
 
     </table>
@@ -109,7 +114,7 @@
         <li>Verify the license is valid.</li>
         <li>Verify sufficient free disk space exists on the system drive.</li>
         <li>Create a VMware snapshot.</li>
-        <li>Download the latest available Version 12 ISO.</li>
+        <li>Download the latest available Version Veeam Backup & Replication 12 ISO.</li>
     </ul>
 
 </div>
@@ -278,7 +283,7 @@
     </ol>
 
     <p>
-        Snapshot name used: <strong>Veeam 12 to 13</strong>.
+        Snapshot name used: <strong>Veeam 12 to latest v12</strong>.
     </p>
 
 </div>
@@ -576,18 +581,22 @@
 <div class="section">
     <h2>🧪 Backup Validation Test</h2>
 
+    <p>
+        Run an existing backup job manually.
+    </p>
+
     <ol>
-        <li>Right-click an existing backup job.</li>
+        <li>Right-click the backup job.</li>
         <li>Select Start.</li>
         <li>Do not use Active Full.</li>
     </ol>
 
     <p>
-        Verify the backup completes successfully.
+        Verify the backup job starts and completes successfully.
     </p>
 
     <p>
-        Run a manual Configuration Backup.
+        Run a manual Configuration Backup after the upgrade and verify it completes successfully.
     </p>
 
     <p>
